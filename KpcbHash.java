@@ -197,7 +197,7 @@ public class KpcbHash<T> {
      * @return return a float value representing the load factor
      */
     public float load() {
-        return this.size/this.TABLE_SIZE;
+        return (float)this.size/(float)this.TABLE_SIZE;
     }
 
     /**
